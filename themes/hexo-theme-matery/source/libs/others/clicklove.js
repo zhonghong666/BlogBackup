@@ -37,7 +37,7 @@ jQuery(document).ready(function($) {
             "top": y - 20, 
             "left": x, 
             "position": "absolute", 
-            "font-weight": "bold", 
+            "font-size": 18,
             "color": `#${Math.random().toString(16).slice(-6)}` 
         }); 
         $("body").append($i); 
