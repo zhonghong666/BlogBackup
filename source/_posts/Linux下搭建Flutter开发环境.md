@@ -17,6 +17,8 @@ github：https://github.com/flutter/flutter.git
 - RN（React Native）：将View编译成原生HTML5高很多，但是它也有效率问题，RN的渲染机制是基于前端框架的考虑，复杂的UI渲染是需要依赖多个view叠加。比如：我们渲染一个复杂的ListView，每一个小的控件都是一个native的view，然后相互组合叠加，如果此时我们的list需要滑动刷新，将会有很多个对象需要渲染。
 - Flutter：吸收了前两者的教训之后，在渲染技术上选择自己实现GDI，由于有更好的可控性，使用了新的语言Dart，避免了RN的那种通过桥接器与JavaScript通讯导致效率低下的问题，所以在性能方面比RN更高一筹。有经验的开发者可以打开Android手机开发者选项里面的显示边界布局，发现Flutter的布局是一个整体，说明Flutter没有使用原生控件进行渲染。
 
+<!-- more -->
+
 ##  优点
 
 - 跨平台
