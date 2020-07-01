@@ -1,6 +1,8 @@
 ---
 title: Linux下搭建Flutter开发环境
 date: 2020-03-22 12:04:31
+cover: true
+categories: Flutter
 tags:
 	- Flutter
 ---

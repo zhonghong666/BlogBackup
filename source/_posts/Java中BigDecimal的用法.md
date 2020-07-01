@@ -2,6 +2,8 @@
 title: "Java中BigDecimal的用法"
 date: 2019-10-25 17:38:58
 comments: true
+categories: Java
+cover: true
 tags:
 	- Java
 ---

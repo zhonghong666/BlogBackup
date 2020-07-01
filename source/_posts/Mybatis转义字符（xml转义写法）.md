@@ -2,6 +2,7 @@
 title: "Mybatis转义字符（xml转义写法）"
 date: 2019-11-19 11:22:58
 comments: true
+categories: MyBatis
 tags:
   -  Mybatis
 ---
